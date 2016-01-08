@@ -14,7 +14,7 @@ wordpress:
 wordpress_db:
   image: miqueladell/mariadb-utf8mb4
   environment:
-    - MYSQL_ROOT_PASSWORD=EPex62LGtwMAgkf2
+    - MYSQL_ROOT_PASSWORD=password
 
 phpmyadmin:
   image: corbinu/docker-phpmyadmin
@@ -23,5 +23,5 @@ phpmyadmin:
   ports:
     - "8181:80"
   environment:
-    - MYSQL_ROOT_PASSWORD=EPex62LGtwMAgkf2
+    - MYSQL_ROOT_PASSWORD=password
     - DEBUG=TRUE
