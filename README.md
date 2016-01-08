@@ -1,5 +1,5 @@
 # miqueladell
-## Version 0.1.0
+## Version 0.1.1
 docker instructions and dynamic contents for the blog miqueladell
 
 # TODO
