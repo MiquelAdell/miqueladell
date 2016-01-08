@@ -1,5 +1,5 @@
 wordpress:
-  image: miqueladell/wordpress:develop
+  image: miqueladell/wordpress
   links:
     - wordpress_db:mysql
   environment:
@@ -13,7 +13,7 @@ wordpress:
     - ./html:/var/www/html #remove in debug
 
 wordpress_db:
-  image: miqueladell/mariadb-utf8
+  image: miqueladell/mariadb-utf8mb4
   environment:
     - MYSQL_ROOT_PASSWORD=EPex62LGtwMAgkf2
 
