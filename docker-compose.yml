@@ -10,7 +10,6 @@ wordpress:
   working_dir: /var/www/html
   volumes:
     - ./wp-content:/var/www/html/wp-content
-    - ./html:/var/www/html #remove in debug
 
 wordpress_db:
   image: miqueladell/mariadb-utf8mb4
